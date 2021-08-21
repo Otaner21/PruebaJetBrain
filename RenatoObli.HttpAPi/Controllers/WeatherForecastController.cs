@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using RenatoObli.EntityFrameworkCore;
 
 namespace RenatoObli.HttpAPi.Controllers
 {
@@ -17,23 +17,36 @@ namespace RenatoObli.HttpAPi.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly Context _context;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, Context context)
         {
             _logger = logger;
+            _context = context;
         }
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            var forecast = new List<WeatherForecast>();
+            if (!_context.WeatherForecasts.Any())
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+                var rng = new Random();
+                forecast.AddRange(Enumerable.Range(1, 5).Select(index => new WeatherForecast
+                {
+                    Date = DateTime.Now.AddDays(index),
+                    TemperatureC = rng.Next(-20, 55),
+                    Summary = Summaries[rng.Next(Summaries.Length)]
+                }));
+                _context.WeatherForecasts.AddRange(forecast);
+                _context.SaveChanges();
+            }
+            else
+            {
+                forecast.AddRange(_context.WeatherForecasts);
+            }
+
+            return forecast;
         }
     }
 }

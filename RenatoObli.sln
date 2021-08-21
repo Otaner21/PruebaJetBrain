@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenatoObli.HttpAPi", "RenatoObli.HttpApi\RenatoObli.HttpAPi.csproj", "{E88B3922-1EB4-4537-84A1-4D3E69679D1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenatoObli.EntityFrameworkCore", "RenatoObli.EntityFrameworkcore\RenatoObli.EntityFrameworkCore.csproj", "{6D194212-8120-40A9-AB0D-C160AC674EA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{E88B3922-1EB4-4537-84A1-4D3E69679D1A}.Release|x64.Build.0 = Release|Any CPU
 		{E88B3922-1EB4-4537-84A1-4D3E69679D1A}.Release|x86.ActiveCfg = Release|Any CPU
 		{E88B3922-1EB4-4537-84A1-4D3E69679D1A}.Release|x86.Build.0 = Release|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Debug|x64.Build.0 = Debug|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Release|x64.ActiveCfg = Release|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Release|x64.Build.0 = Release|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D194212-8120-40A9-AB0D-C160AC674EA5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

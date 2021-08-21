@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using RenatoObli.EntityFrameworkCore;
 
 namespace RenatoObli.HttpAPi
 {
@@ -27,6 +29,13 @@ namespace RenatoObli.HttpAPi
         {
 
             services.AddControllers();
+
+            services.AddDbContext<Context>(
+                o => o.UseSqlServer("Default")
+            );
+           
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RenatoObli.HttpAPi", Version = "v1" });
