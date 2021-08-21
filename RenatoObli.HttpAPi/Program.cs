@@ -13,7 +13,7 @@ namespace RenatoObli.HttpAPi
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run(); // comentario
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

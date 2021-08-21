@@ -1,0 +1,15 @@
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\bin\Debug\net5.0\RenatoObli.EntityFrameworkCore.deps.json
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\bin\Debug\net5.0\RenatoObli.EntityFrameworkCore.dll
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\bin\Debug\net5.0\ref\RenatoObli.EntityFrameworkCore.dll
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\bin\Debug\net5.0\RenatoObli.EntityFrameworkCore.pdb
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.csproj.AssemblyReference.cache
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.dll
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\ref\RenatoObli.EntityFrameworkCore.dll
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.pdb
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\bin\Debug\net5.0\RenatoObli.EntityFrameworkCore.runtimeconfig.json
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\bin\Debug\net5.0\RenatoObli.EntityFrameworkCore.runtimeconfig.dev.json
+C:\Users\Rena\Segundadia\RenatoObli.EntityFrameworkcore\obj\Debug\net5.0\RenatoObli.EntityFrameworkCore.genruntimeconfig.cache
