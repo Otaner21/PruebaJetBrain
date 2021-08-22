@@ -31,7 +31,7 @@ namespace RenatoObli.HttpAPi
             services.AddControllers();
 
             services.AddDbContext<Context>(
-                o => o.UseSqlServer("Default")
+                o => o.UseSqlServer(Configuration.GetConnectionString("Default"))
             );
            
 
