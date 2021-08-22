@@ -10,7 +10,7 @@ namespace RenatoObli.EntityFrameworkCore
         {
             var builder = new DbContextOptionsBuilder<Context>();
 
-            builder.UseSqlServer("Server=SQLSERVERLOCAL;DataBase=RenatoObliBD;Trusted_Connection=True;" );// Trusted_Connection=True;");
+            builder.UseSqlServer(@"Server=DESKTOP-MNVS5C9\SQLEXPRESS;DataBase=RenatoObliBD;Trusted_Connection=True;" );// Trusted_Connection=True;");
 
             return new Context(builder.Options);
         }

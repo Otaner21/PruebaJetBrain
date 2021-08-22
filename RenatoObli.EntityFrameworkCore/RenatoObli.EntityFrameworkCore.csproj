@@ -13,4 +13,16 @@
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Migrations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\**" />
+  </ItemGroup>
+
 </Project>

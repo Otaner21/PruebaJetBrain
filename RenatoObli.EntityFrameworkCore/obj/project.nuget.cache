@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k+Ih1PBCNCuzLyshSZj3nKzFT5BM2mWJyFLxXlCRj5/YujpLn3OgftOcqzMFIzgJAbOqWt5ACdAZpoNNmTpsjQ==",
+  "dgSpecHash": "+AFDDUkT/Pn6BgcmiNsk+U6w/ghx6niu5aBB7/PmiQy8dHmXHFyLQt5oBC8EhOiy8ORsteCtJspyMwSbywHbDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rena\\Segundadia\\RenatoObli.EntityFrameworkcore\\RenatoObli.EntityFrameworkCore.csproj",
+  "projectFilePath": "C:\\Users\\Rena\\Segundadia\\renatoobli.entityframeworkcore\\RenatoObli.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rena\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Rena\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
