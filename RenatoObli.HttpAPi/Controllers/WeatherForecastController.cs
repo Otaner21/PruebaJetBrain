@@ -48,6 +48,23 @@ namespace RenatoObli.HttpAPi.Controllers
 
             return forecast;
         }
-        
+
+        [HttpPost]
+        public void Post([FromBody] string value)
+        {
+            
+        }
+
+        [HttpPut("{Id}")]
+        public void Put(int id, [FromBody] string value)
+        {
+            
+        }
+
+        [HttpDelete("{Id}")]
+        public void Delete(int id)
+        {
+            
+        } 
     }
 }
