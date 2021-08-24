@@ -48,5 +48,6 @@ namespace RenatoObli.HttpAPi.Controllers
 
             return forecast;
         }
+        
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rena\\Segundadia\\renatoobli.entityframeworkcore\\RenatoObli.EntityFrameworkCore.csproj": {}
+    "C:\\Users\\Rena\\Segundadia\\RenatoObli.EntityFrameworkcore\\RenatoObli.EntityFrameworkCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rena\\Segundadia\\renatoobli.entityframeworkcore\\RenatoObli.EntityFrameworkCore.csproj": {
+    "C:\\Users\\Rena\\Segundadia\\RenatoObli.EntityFrameworkcore\\RenatoObli.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rena\\Segundadia\\renatoobli.entityframeworkcore\\RenatoObli.EntityFrameworkCore.csproj",
+        "projectUniqueName": "C:\\Users\\Rena\\Segundadia\\RenatoObli.EntityFrameworkcore\\RenatoObli.EntityFrameworkCore.csproj",
         "projectName": "RenatoObli.EntityFrameworkCore",
-        "projectPath": "C:\\Users\\Rena\\Segundadia\\renatoobli.entityframeworkcore\\RenatoObli.EntityFrameworkCore.csproj",
+        "projectPath": "C:\\Users\\Rena\\Segundadia\\RenatoObli.EntityFrameworkcore\\RenatoObli.EntityFrameworkCore.csproj",
         "packagesPath": "C:\\Users\\Rena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rena\\Segundadia\\renatoobli.entityframeworkcore\\obj\\",
+        "outputPath": "C:\\Users\\Rena\\Segundadia\\RenatoObli.EntityFrameworkcore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
